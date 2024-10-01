@@ -1,24 +1,26 @@
 <!DOCTYPE html>
-<html lang="en">
+
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <title>Sound Player</title>
-    <link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-    <div id="buttons">
-        <button class="btn" onclick="playsound('applause.mp3')">Applause</button>
-        <button class="btn" onclick="playsound('boo.mp3')">Boo</button>
-        <button class="btn" onclick="playsound('gasp.mp3')">Gasp</button>
-        <button class="btn" onclick="playsound('tada.mp3')">Tada</button>
-        <button class="btn" onclick="playsound('victory.mp3')">Victory</button>
-        <button class="btn" onclick="playsound('wrong.mp3')">Wrong</button>
-        <button class="btn stop" onclick="stopsound()">Stop</button>
+	<div id="buttons">
+        <button class="btn" data-sound="applause">applause</button>
+        <button class="btn" data-sound="boo">boo</button>
+        <button class="btn" data-sound="gasp">gasp</button>
+        <button class="btn" data-sound="tada">tada</button>
+        <button class="btn" data-sound="victory">victory</button>
+        <button class="btn" data-sound="wrong">wrong</button>
+        <button class="btn stop">stop</button>
     </div>
-    <audio id="audio"></audio>
-    <script type="text/javascript" src="./script.js"></script>
+
+	<!-- the entire body must be written by student -->
+    <script type="text/javascript" src="./script.js">
+</script>
+
 </body>
+
 </html>
-
-
-
